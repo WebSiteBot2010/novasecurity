@@ -6,36 +6,30 @@ label
 
 return (
 
-<div
-className="
+<div className="
+p-8
+rounded-3xl
+bg-white/5
+border
+border-white/10
 text-center
-"
->
+">
 
 
-<h2
-className="
+<h3 className="
 text-5xl
 font-black
-bg-gradient-to-r
-from-blue-400
-to-purple-500
-text-transparent
-bg-clip-text
-"
->
+">
 
 {number}
 
-</h2>
+</h3>
 
 
-<p
-className="
-mt-2
+<p className="
+mt-3
 text-gray-400
-"
->
+">
 
 {label}
 

@@ -5,21 +5,13 @@ export default function SectionTitle({
 
 return (
 
-<div
-className="
-text-center
-mb-12
-"
->
+<div className="text-center mb-12">
 
-<h2
-className="
+<h2 className="
 text-4xl
 md:text-5xl
 font-black
-tracking-tight
-"
->
+">
 
 {title}
 
@@ -29,21 +21,18 @@ tracking-tight
 {
 description &&
 
-<p
-className="
+<p className="
 mt-4
 text-gray-400
 max-w-2xl
 mx-auto
-"
->
+">
 
 {description}
 
 </p>
 
 }
-
 
 </div>
 

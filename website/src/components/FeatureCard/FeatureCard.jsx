@@ -1,77 +1,62 @@
-import { motion } from "framer-motion";
-
-
 export default function FeatureCard({
     icon,
     title,
     description
-}) {
+}){
 
 
 return (
 
-<motion.div
-
-whileHover={{
-    y:-8
-}}
-
-transition={{
-    duration:.2
-}}
-
-className="
+<div className="
 p-8
 rounded-3xl
+bg-white/5
 border
 border-white/10
-bg-white/5
-backdrop-blur-xl
-hover:border-blue-500/40
+hover:border-indigo-500
 transition
-"
-
->
+">
 
 
-<div
-className="
-text-4xl
-mb-5
-"
->
+<div className="
+w-14
+h-14
+rounded-2xl
+bg-indigo-600/20
+flex
+items-center
+justify-center
+text-indigo-400
+text-2xl
+">
 
 {icon}
 
 </div>
 
 
-<h3
-className="
-text-xl
+<h3 className="
+text-2xl
 font-bold
-"
->
+mt-6
+">
 
 {title}
 
 </h3>
 
 
-<p
-className="
-mt-3
+<p className="
 text-gray-400
-leading-relaxed
-"
->
+mt-3
+">
 
 {description}
 
 </p>
 
 
-</motion.div>
+</div>
 
 )
 
