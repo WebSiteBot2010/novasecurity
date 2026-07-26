@@ -1,23 +1,23 @@
 export default function SectionTitle({
-title,
-description
+    title,
+    description
 }){
-
 
 return (
 
 <div
 className="
 text-center
-mb-16
+mb-12
 "
 >
 
-
 <h2
 className="
-text-5xl
+text-4xl
+md:text-5xl
 font-black
+tracking-tight
 "
 >
 
@@ -26,17 +26,23 @@ font-black
 </h2>
 
 
+{
+description &&
+
 <p
 className="
 mt-4
 text-gray-400
-text-lg
+max-w-2xl
+mx-auto
 "
 >
 
 {description}
 
 </p>
+
+}
 
 
 </div>
