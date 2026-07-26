@@ -1,11 +1,13 @@
+import Router from "./router/Router";
+
+
 function App() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-black">
-      <h1 className="text-5xl font-bold text-white">
-        N.O.V.A Security
-      </h1>
-    </div>
-  )
+
+    return (
+        <Router />
+    )
+
 }
 
-export default App
+
+export default App;
